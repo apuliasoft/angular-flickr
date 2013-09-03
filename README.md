@@ -1,31 +1,30 @@
 Angular Flickr
 ==============
-Questo progetto è un tutorial utile per apprendere tutte le funzionalità principali di _AngularJS_ tramite l'interrogazione delle API di _Flickr_.
+Questo progetto è un tutorial utile all'apprendimento di tutte le funzionalità principali di _AngularJS_ tramite l'interrogazione delle API di _Flickr_.
 
 Sentitevi liberi di forkarlo, modificarlo e ricondividerlo!!
 
 Requisiti
 ------------
- - [NodeJS](http://nodejs.org/download)
- - [Bower](http://bower.io/)
+ - [NodeJS](http://nodejs.org)
+ - [Grunt](http://gruntjs.org)
+ - [Bower](http://bower.io)
 
 Primo avvio
 -----------
-Dopo la clonazione, posizionatevi all'interno della directory di progetto e installate le dipendenze con bower:
+Dopo la clonazione, scaricate le dipendenze con npm e bower
 
 ```
-bower install
+npm install & bower install
 ```
 
-avviate il server con node:
+e avviate il server con grunt
 
 ```
-node web-server.js
+grunt server
 ```
-
-e provate l'applicazione all'indirizzo <http://localhost:3000/index.html>.
 
 Note
 ----
 
-Se volete testare le vostre modifiche al progetto AngularJS non dovrete riavviare il server.
+Realizzato con [Yeoman](http://yeoman.io).

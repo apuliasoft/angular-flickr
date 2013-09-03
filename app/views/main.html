@@ -1,9 +1,13 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div class="row">
+    <div class="col-md-6 text-center" ng-controller="ThumbsCtrl">
+        <form class="well form-horizontal">
+            <label for="search">Tags: </label>
+            <input id="search" type="text" ng-model="search"/>
+            <button class="btn" ng-click="doSearch()">Search</button>
+        </form>
+        <thumbnails photos="photos.photos.photo" loading="loading" link="setCurrentPhoto(photo)"/>
+    </div>
+    <div class="col-md-6 text-center" ng-controller="ZoomCtrl">
+        <img ng-src="{{service.photo}}">
+    </div>
 </div>
