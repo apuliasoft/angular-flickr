@@ -15,7 +15,7 @@ Primo avvio
 Dopo la clonazione, scaricate le dipendenze con npm e bower
 
 ```
-npm install & bower install
+npm install && bower install
 ```
 
 e avviate il server con grunt

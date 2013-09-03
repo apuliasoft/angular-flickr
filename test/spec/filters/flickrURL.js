@@ -11,9 +11,4 @@ describe('Filter: flickrURL', function () {
     flickrURL = $filter('flickrURL');
   }));
 
-  it('should return the input prefixed with "flickrURL filter:"', function () {
-    var text = 'angularjs';
-    expect(flickrURL(text)).toBe('flickrURL filter: ' + text);
-  });
-
 });

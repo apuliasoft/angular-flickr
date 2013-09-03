@@ -11,8 +11,4 @@ describe('Service: photo', function () {
     photo = _photo_;
   }));
 
-  it('should do something', function () {
-    expect(!!photo).toBe(true);
-  });
-
 });

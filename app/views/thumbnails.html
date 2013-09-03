@@ -1,5 +1,5 @@
 <div class="row">
-    <div ng-show="loading" class="col-md-12"><img src="img/loader.gif" /></div>
+    <div ng-show="loading" class="col-md-12"><img src="images/loader.gif" /></div>
     <div ng-hide="loading" ng-repeat="photo in photos" class="col-md-3">
         <a class="thumbnail" ng-click="link({photo:photo})">
             <img ng-src="{{photo | flickrURL:'q'}}"/>
