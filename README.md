@@ -1,5 +1,7 @@
 Angular Flickr
 ==============
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/apuliasoft/angular-flickr.svg)](https://greenkeeper.io/)
 Questo progetto è un tutorial utile all'apprendimento di tutte le funzionalità principali di _AngularJS_ tramite l'interrogazione delle API di _Flickr_.
 
 Sentitevi liberi di forkarlo, modificarlo e ricondividerlo!!
